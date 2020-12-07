@@ -18,3 +18,20 @@ console.log("Nice to meet you" + " "+ name);
 var testLength = " I'm very long !";
 console.log(testLength.length);
 
+//Replace
+var food ="croissant is meh";
+console.log(food.replace("meh","so good"));
+
+//Up and Down
+var x = "This is cool";
+var xToUppercase = x.toUpperCase();
+var xToDown = x.toLowerCase();
+console.log(xToDown);
+console.log(xToUppercase);
+
+//Split
+
+var word = "banana";
+var letters = word.split("");
+console.log(letters);
+
