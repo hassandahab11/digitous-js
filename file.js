@@ -35,3 +35,8 @@ var word = "banana";
 var letters = word.split("");
 console.log(letters);
 
+//Template
+
+var age ="xx";
+age = 34;
+console.log(`I'm ${age} Years old`);
