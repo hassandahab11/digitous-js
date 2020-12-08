@@ -29,3 +29,24 @@ if(score>=limit){
 }else{
     console.log("Oh nooooo........");
 }
+
+//07 Condition II
+var password = "azerty"; 
+if(password.length>5){
+    console.log("The password is secure");
+}else{
+    console.log("Erorere");
+}
+
+//08 Condition III
+var xy = true;
+switch (xy) {
+    case true:
+        console.log("Everything is good" );
+    case true || false: 
+        console.log("Something is good");   
+        break;
+
+    default:
+        console.log("Nothing is good");
+}
