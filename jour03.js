@@ -21,3 +21,27 @@ console.log(librairie.push("laptop"));
 console.log(librairie);
 console.log(librairie.shift());
 console.log(librairie);
+
+//04 Order
+
+var numbers = [4, 10, 8, 12, 6];
+console.log(numbers.reverse());
+console.log(numbers.sort());
+
+
+//05 Boucle
+var total =0;
+var limit = 10;
+for(total =0; total <=10; total++){
+    console.log(total);
+}
+
+
+// 06 Reverse
+
+
+// var sentnce = "Hello Konexio";
+// for(i= 0; i <= sentnce.length; i++){
+//     console.log(reverse[sentnce]);
+
+// }
