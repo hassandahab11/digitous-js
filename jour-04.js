@@ -58,4 +58,11 @@ compare(10,20);
 compare(50,20);
 compare(30,30);
 
+// 05 Add UP
+function addUp(num){
+    var x = 0;
+    for(i =1; i <= num; i++){
+        x +=i;
+      }  console.log(x);
 
+}addUp(12);
