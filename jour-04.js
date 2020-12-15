@@ -66,3 +66,23 @@ function addUp(num){
       }  console.log(x);
 
 }addUp(12);
+
+// Créez une fonction `format` qui reçoit un paramètre `num` qui représente des secondes
+//- Faites en sorte que la fonction retourne un format `heures : minutes : secondes`
+// Appelez votre fonction avec l'argument `3700` et vérifiez que vous obtenez `1:1:40`
+
+function format(){
+  var time={
+        heures: 0,
+        minutes: 0,
+        secondes:0
+    };
+  console.log();
+   var num =60;
+   var heures = num /num;
+   var minutes = num/num ;
+   var secondes= minutes ;
+   console.log(heures,minutes,secondes);
+}format(3700);
+
+
