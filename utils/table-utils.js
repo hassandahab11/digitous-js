@@ -1,4 +1,4 @@
-function multiply(num){
+ function multiply(num){
     var result =1;
     for( var i=1; i<=10; i++){
         result =num * i;
@@ -7,7 +7,7 @@ function multiply(num){
 }
 console.log(process.argv);
 multiply(process.argv[2]);
-
+ 
 function Addition(num){
     var result =1;
     for( var i=1; i<=10; i++){
