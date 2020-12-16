@@ -13,10 +13,10 @@ console.log(calculate(process.argv[2], process.argv[3],process.argv[4]));
 
 //02 table
 
-var mult = require("./table-utils");
+var multiply = require("./table-utils");
 
-mult();
+multiply();
 console.log(process.argv);
-mult(process.argv[2]);
+multiply(process.argv[2]);
 
 
