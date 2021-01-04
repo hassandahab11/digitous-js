@@ -1,0 +1,9 @@
+
+
+
+liste = [
+    {name : "john Doe"
+Email: jane.doe@example.com "},
+{name: "john Smith"
+email: john.smith#example.com"}
+]

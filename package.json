@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hassandahab11/digitous-js#readme",
   "dependencies": {
+    "moment": "^2.29.1",
     "prompt": "^1.0.0"
   }
 }

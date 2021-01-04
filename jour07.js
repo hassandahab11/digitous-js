@@ -1,23 +1,7 @@
-// 01 Alphabet
+// 01 File System
+var fs = require("fs");
 
-// function sortLetters(xStriing) {
-//  var y = xStriing.split('').sort().join('');
-//  console.log(y);
-//  console.log(xStriing);
-// }
-// sortLetters("konexio");
+fs.readFile("./jour07.txt", function(error, data){
+    console.log(data.toString());
+})
 
-
-//02 XOXO
-
-function countEach(xString){
-var y = xString;
-for(var i=0; i<=y.length; i++){
-
-if( y ="x" > "o"){
-    console.log("true");
-}else{
-    console.log("false");
-}
-} }
-countEach("xox");
