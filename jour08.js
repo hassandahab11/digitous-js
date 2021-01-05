@@ -1,5 +1,6 @@
 var request = require("request");
 
+//01
 var countriesNames = [];
 request.get("https://restcountries.eu/rest/v1/all", function(error, response, body){
     var getCountries = JSON.parse(body);
@@ -8,4 +9,11 @@ request.get("https://restcountries.eu/rest/v1/all", function(error, response, bo
     }
     console.log(`the countries  : ${countriesNames}`);
 });
+
+//02
+
+request.get("https://api.chucknorris.io/jokes/random", function(error, response, body){
+    var getFact= JSON.parse(body);
+    console.log(getFact.value);
+})
 
