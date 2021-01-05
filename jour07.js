@@ -13,3 +13,17 @@ var doubles = numbers.map(function(num) {
 });
 console.log(doubles);
 
+// 03 Map Names
+var longNames =[{ 
+    firstName: "Jane",
+    lastName: "Doe"
+},
+{
+    firstName: "John",
+    lastName: "Smith"
+}
+];
+var shortName = longNames.map(function(firstName, lastName){
+    return firstName + lastName;
+})
+console.log(shortName);
